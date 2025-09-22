@@ -1,0 +1,29 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$character\
+$directory \
+"""
+
+right_format = """
+$git_branch\
+$cmd_duration\
+"""
+
+[character]
+error_symbol = '[](bold red)'
+success_symbol = "[](bold white)"
+ 
+[directory]
+format = "[ $path](fg:white)"
+truncation_length = 1
+truncation_symbol = ""
+
+[git_branch]
+symbol = ""
+format = '[ $symbol $branch ](purple)'
+
+[cmd_duration]
+min_time = 500
+show_milliseconds = true
+format = '[ $duration ](fg:#666666)'

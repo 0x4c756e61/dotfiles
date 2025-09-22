@@ -1,0 +1,48 @@
+;; defsrc is still necessary
+(defcfg
+  process-unmapped-keys yes
+)
+
+
+(defsrc
+  caps a s d f h j k l ; Backquote Insert
+)
+
+(defvar
+  tap-time 100
+  hold-time 150
+)
+
+(defalias
+  a (multi f24 (tap-hold $tap-time $hold-time a lmet))
+  s (multi f24 (tap-hold $tap-time $hold-time s ralt))
+  d (multi f24 (tap-hold $tap-time $hold-time d lsft))
+  f (multi f24 (tap-hold $tap-time $hold-time f lctl))
+
+  j (multi f24 (tap-hold $tap-time $hold-time j rctl))
+  k (multi f24 (tap-hold $tap-time $hold-time k rsft))
+  l (multi f24 (tap-hold $tap-time $hold-time l lalt))
+  ; (multi f24 (tap-hold $tap-time $hold-time ; rmet))
+
+  caps (tap-hold $tap-time $hold-time caps (layer-while-held hjkl-arrow))
+
+  insert_togaming (layer-switch game)
+  insert_tobase (layer-switch base)
+
+  h_arrow ArrowLeft
+  j_arrow ArrowUp
+  k_arrow ArrowDown
+  l_arrow ArrowRight
+)
+
+(deflayer base
+   @caps @a @s @d @f h @j @k @l @; (unicode ~) @insert_togaming
+)
+
+(deflayer hjkl-arrow
+   caps @a @s @d @f @h_arrow @j_arrow @k_arrow @l_arrow @; (unicode ~) XX
+)
+
+(deflayer game
+  caps a s d f h j k l ; (unicode ~) @insert_tobase
+)

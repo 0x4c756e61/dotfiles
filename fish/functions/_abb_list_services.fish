@@ -1,3 +1,5 @@
+
+# Used to generate completions for `adb abb`, it lists all services registered to the device's binder (android RPC)
 function _abb_list_services
     for service in (adb abb -l | tail -n +2 | string trim)
         # echo -e "- $service"

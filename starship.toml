@@ -13,7 +13,7 @@ $cmd_duration\
 [character]
 error_symbol = '[](bold red)'
 success_symbol = "[](bold white)"
- 
+
 [directory]
 format = "[ $path](fg:white)"
 truncation_length = 1

@@ -1,0 +1,44 @@
+[[language]]
+name = "c"
+formatter = { command = "clang-format", args = ["-style=file", "--assume-filename=~/.clang-format"] }
+auto-format = true
+
+[language-server.clangd]
+config = { provideFormatter = false }
+
+
+# [[language]]
+# name = "c-sharp"
+# formatter = { command = "clang-format", args = ["-style=file", "--assume-filename=~/.clang-format"] }
+# auto-format = true
+
+# [language-server.omnisharp]
+# config = { provideFormatter = false }
+
+
+[language-server.roslyn]
+command = "roslyn-language-server"
+
+[[language]]
+name = "c-sharp"
+language-servers = ["roslyn"]
+
+
+[[language]]
+name = "python"
+auto-format = true
+language-servers = [
+    {name = "ruff-lsp"},
+    {name = "pylsp"}
+]
+
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+args = []
+config = {}
+
+[language-server.pylsp]
+command = "pylsp"
+args = []
+config = {}
+

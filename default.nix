@@ -7,5 +7,8 @@
     ./lowfi/default.nix
     ./mpv/default.nix
     ./starship/default.nix
+    ./git/default.nix
+    ./helix/default.nix
+    ./MangoHud/default.nix
   ];
 }

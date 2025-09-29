@@ -1,0 +1,30 @@
+theme = "base16_transparent"
+
+[editor]
+line-number = "relative"
+mouse = false
+end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+
+# keymaps
+[keys.normal]
+C-left = "jump_view_left"
+C-right = "jump_view_right"
+C-up = "jump_view_up"
+C-down = "jump_view_down"
+C-r = ":config-reload"
+C-z = ":sh wl-paste | silicon -c -l zig "
+C-s = ":w"
+
+[keys.insert]
+C-s = ":w"

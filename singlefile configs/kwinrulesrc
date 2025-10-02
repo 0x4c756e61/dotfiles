@@ -1,0 +1,88 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[3dcaf58b-d666-4716-8b39-78708a1ef7a7]
+Description=Konsole no decorations
+noborder=true
+noborderrule=3
+title=~ — Konsole
+types=1
+wmclass=konsole org.kde.konsole
+wmclasscomplete=true
+wmclassmatch=1
+
+[951827e8-7ebc-4baf-90de-fe0f547aea41]
+Description=Application settings for systemsettings
+minsize=1,1
+minsizerule=2
+types=1
+wmclass=systemsettings
+wmclassmatch=1
+
+[9675bfd7-593d-4be2-8ddf-c655f670e5cf]
+Description=Custom MPV PIP
+above=true
+aboverule=2
+activity=00000000-0000-0000-0000-000000000000
+activityrule=2
+desktops=\\0
+desktopsrule=2
+ignoregeometry=true
+ignoregeometryrule=2
+layer=above
+layerrule=2
+noborder=true
+noborderrule=2
+placement=0
+placementrule=2
+position=1589,885
+positionrule=2
+shaderule=3
+size=316,178
+sizerule=2
+skippager=true
+skippagerrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+title=mpv-music-popup
+titlematch=1
+wmclass=mpv
+wmclassmatch=1
+
+[General]
+count=5
+rules=951827e8-7ebc-4baf-90de-fe0f547aea41,e3824f5a-fd47-4112-99ed-eab54da5922b,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,3dcaf58b-d666-4716-8b39-78708a1ef7a7
+
+[a98b9fc5-89ce-4dce-9457-a33d425b7cf0]
+Description=Window settings for ghostty.lowfi
+closeable=true
+closeablerule=2
+ignoregeometry=true
+ignoregeometryrule=2
+layer=above
+layerrule=2
+minsize=376,0
+minsizerule=2
+position=746,954
+positionrule=3
+size=376,108
+sizerule=2
+strictgeometryrule=2
+title=~
+types=1
+wmclass=ghostty ghostty.lowfi
+wmclasscomplete=true
+wmclassmatch=1
+
+[e3824f5a-fd47-4112-99ed-eab54da5922b]
+Description=Application settings for moonlight-stable
+ignoregeometry=true
+ignoregeometryrule=2
+minsize=0,0
+minsizerule=2
+strictgeometryrule=2
+wmclass=Discord moonlight-stable
+wmclasscomplete=true
+wmclassmatch=1

@@ -1,0 +1,37 @@
+touchpad:
+  delta_multiplier: 5.0
+  gestures:
+    - type: swipe
+      direction: any
+      fingers: 3
+
+      actions:
+        - on: begin
+          input:
+            - keyboard: [ +leftalt ]
+            - mouse: [ +left ]
+
+        - on: update
+          input:
+            - mouse: [ move_by_delta ]
+
+        - on: end_cancel
+          input:
+            - keyboard: [ -leftalt ]
+            - mouse: [ -left ]
+
+    - type: pinch
+      fingers: 4
+      direction: in
+
+      actions:
+        - on: begin
+          plasma_shortcut: kwin,Window Fullscreen
+
+    - type: pinch
+      fingers: 4
+      direction: out
+
+      actions:
+        - on: begin
+          plasma_shortcut: kwin,Window Fullscreen

@@ -1,0 +1,6 @@
+{
+  "Nix input": {
+    "prefix": "ni",
+    "body": ["${1:inputName} = {", "  url = \"${2:flakeURL}\";", "  inputs.nixpkgs.follows = \"nixpkgs\";", "};"]
+  }
+}

@@ -11,5 +11,6 @@
     ./helix/default.nix
     ./MangoHud/default.nix
     ./single_files.nix
+    ./zed/default.nix
   ];
 }

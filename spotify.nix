@@ -1,25 +1,24 @@
 {spicetify, pkgs, ...}: {
-
-  home.packages = with pkgs; [
-    spotify
-  ];
-
   programs.spicetify =
   let
-    spicePkgs = spicetify.packages.${pkgs.stdenv.hostPlatform.system};
+    spicePkgs = spicetify.legacyPackages.${pkgs.stdenv.hostPlatform.system};
   in
   {
     enable = true;
-    package = spicetify.packages.${pkgs.stdenv.hostPlatform.system}.default;
-
+    wayland = true;
     enabledExtensions = with spicePkgs.extensions; [
       adblock
       hidePodcasts
+      groupSession
+      powerBar
+      skipStats
+      autoVolume
+      history
+      playNext
     ];
 
-
+    enabledCustomApps = with spicePkgs.apps; [
+      marketplace
+    ];
   };
-
-
-
 }

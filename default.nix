@@ -12,5 +12,6 @@
     ./MangoHud/default.nix
     ./single_files.nix
     ./zed/default.nix
+    ./spotify.nix
   ];
 }

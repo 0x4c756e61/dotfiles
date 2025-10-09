@@ -8,17 +8,12 @@
         "schema_version": 1,
         "description": "🦀 Soothing pastel theme for Zed",
         "repository": "https://github.com/catppuccin/zed",
-        "authors": [
-          "Catppuccin <releases@catppuccin.com>"
-        ],
+        "authors": ["Catppuccin <releases@catppuccin.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/catppuccin-no-italics-mauve.json",
-          "themes/catppuccin-mauve.json"
-        ],
+        "themes": ["themes/catppuccin-no-italics-mauve.json", "themes/catppuccin-mauve.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -38,16 +33,12 @@
         "schema_version": 1,
         "description": "Catppuccin themes with blur",
         "repository": "https://github.com/jenslys/zed-catppuccin-blur",
-        "authors": [
-          "Jens Lystad <jens@lystad.io>"
-        ],
+        "authors": ["Jens Lystad <jens@lystad.io>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/catppuccin-blur.json"
-        ],
+        "themes": ["themes/catppuccin-blur.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -67,17 +58,13 @@
         "schema_version": 1,
         "description": "🦊 Soothing pastel icons for Zed",
         "repository": "https://github.com/catppuccin/zed-icons",
-        "authors": [
-          "Catppuccin <releases@catppuccin.com>"
-        ],
+        "authors": ["Catppuccin <releases@catppuccin.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
-        "icon_themes": [
-          "icon_themes/catppuccin-icons.json"
-        ],
+        "icon_themes": ["icon_themes/catppuccin-icons.json"],
         "languages": [],
         "grammars": {},
         "language_servers": {},
@@ -96,16 +83,12 @@
         "schema_version": 1,
         "description": "Colorizer is a vibrant Zed code editor theme that enhances readability with rich, contrasting colors, making your coding experience both efficient and enjoyable.",
         "repository": "https://github.com/tamimhasandev/colorizer",
-        "authors": [
-          "Md Tamim Hasan <tamimhasandev@gmail.com>"
-        ],
+        "authors": ["Md Tamim Hasan <tamimhasandev@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/colorizer.json"
-        ],
+        "themes": ["themes/colorizer.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -125,18 +108,14 @@
         "schema_version": 1,
         "description": "C# support.",
         "repository": "https://github.com/zed-extensions/csharp",
-        "authors": [
-          "fminkowski <fminkowski@gmail.com>"
-        ],
+        "authors": ["fminkowski <fminkowski@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/csharp"
-        ],
+        "languages": ["languages/csharp"],
         "grammars": {
           "c_sharp": {
             "repository": "https://github.com/tree-sitter/tree-sitter-c-sharp",
@@ -167,18 +146,14 @@
         "schema_version": 1,
         "description": "Zed Cucumber Support",
         "repository": "https://github.com/thlcodes/zed-extension-cucumber",
-        "authors": [
-          "Thomas Liebeskind <thomas.liebeskind@gmail.com>"
-        ],
+        "authors": ["Thomas Liebeskind <thomas.liebeskind@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/gherkin"
-        ],
+        "languages": ["languages/gherkin"],
         "grammars": {
           "gherkin": {
             "repository": "https://github.com/thlcodes/tree-sitter-gherkin",
@@ -209,9 +184,7 @@
         "schema_version": 1,
         "description": "Presence for your beautiful discord account :)",
         "repository": "https://github.com/xhyrom/zed-discord-presence",
-        "authors": [
-          "Jozef Steinhübl <contact@xhyrom.dev>"
-        ],
+        "authors": ["Jozef Steinhübl <contact@xhyrom.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
@@ -481,261 +454,261 @@
               "edge"
             ],
             "language_ids": {
-              "Gherkin": "gherkin",
-              "GDScript": "gdscript",
-              "Git Rebase": "gitrebase",
-              "Gleam": "gleam",
-              "FSharp": "fsharp",
-              "VHDL": "vhdl",
-              "Kconfig": "kconfig",
-              "Pdxinfo": "pdxinfo",
-              "Navi Stream": "navi_stream",
-              "D2": "d2",
-              "Blade": "blade",
-              "Ruby": "ruby",
-              "Go": "go",
-              "Dockerfile": "dockerfile",
-              "RCL": "rcl",
-              "GraphQL": "graphql",
-              "LilyPond": "lilypond",
-              "RBS": "rbs",
-              "PowerShell": "powershell",
-              "VRL": "vrl",
-              "CONL": "conl",
-              "Helm": "helm",
-              "Inform 6": "inform6",
-              "http": "http",
-              "QuakeC": "quakec",
-              "Wgsl": "wgsl",
-              "Firebase Rules": "firebase-security-rules",
-              "Haxe": "haxe",
-              "Groovy": "groovy",
-              "WebAssembly Text Format": "wat",
-              "Stan": "stan",
-              "CFEngine": "cfengine",
-              "Erlang": "erlang",
-              "ISLE": "isle",
-              "Tera (HTML)": "tera-html",
-              "OCaml": "ocaml",
-              "EDI X12": "edi-x12",
-              "Brainfuck": "brainfuck",
-              "Racket": "racket",
-              "Snakemake": "snakemake",
-              "Cylc": "cylc",
-              "edge": "edge",
-              "Zig": "zig",
-              "TOML": "toml",
-              "SCSS": "scss",
-              "Elisp": "elisp",
-              "Gemini": "gemini",
-              "Godot Resource": "godot_resource",
-              "Haml": "haml",
-              "GLSL": "glsl",
-              "V": "v",
-              "Vue.js": "vue",
-              "Starlark": "starlark",
-              "Proto": "proto",
-              "Svelte": "svelte",
-              "Janet": "janet",
-              "Tree-sitter Query": "query",
-              "Verilog": "verilog",
-              "Git Config": "gitconfig",
-              "Yara": "yara",
-              "Noir": "noir",
-              "ECR": "ecr",
-              "Go Work": "gowork",
-              "Bend": "bend",
-              "Fortran": "fortran",
-              "Templ": "templ",
-              "Git Commit": "gitcommit",
-              "bitbake": "bitbake",
-              "EJS": "ejs",
-              "Navi": "navi",
               "Ledger": "ledger",
-              "Gren": "gren",
-              "Pkl": "pkl",
-              "Ada": "ada",
-              "Curry": "curry",
-              "HLSL": "hlsl",
-              "cfml": "cfml",
-              "Pact": "pact",
-              "MATLAB": "matlab",
-              "cfhtml": "cfhtml",
-              "Typst": "typst",
-              "C": "c",
-              "Dart": "dart",
-              "VHS": "vhs",
-              "Odin": "odin",
-              "cfscript": "cfscript",
-              "ReScript": "rescript",
-              "JSONC": "jsonc",
-              "Liquid": "liquid",
-              "Cooklang": "cooklang",
-              "PlantUML": "plantuml",
-              "Beancount": "beancount",
-              "Hare": "hare",
-              "CSV": "csv",
-              "bazelrc": "bazelrc",
-              "Tera (JSON)": "tera-json",
-              "Perm": "perm",
-              "Vento": "vento",
-              "Nim Format String": "nim_format_string",
-              "CSS": "css",
-              "COBOL": "cobol",
-              "Vala": "vala",
-              "Uiua": "uiua",
-              "GROQ": "groq",
-              "BibTeX": "bibtex",
-              "PHP": "php",
-              "Rainbow TSV": "tsv",
-              "ERB": "erb",
-              "Path of Exile Filter": "poe-filter",
-              "LESS": "less",
-              "Nginx": "nginx",
-              "Caddyfile": "caddyfile",
-              "Git Ignore": "gitignore",
-              "Hurl": "hurl",
-              "YAML": "yaml",
-              "FlatBuffers": "flatbuffers",
-              "Aiken": "aiken",
-              "Go Mod": "gomod",
-              "OCaml Interface": "ocaml-interface",
-              "QML": "qml",
-              "Just": "just",
-              "Agda": "agda",
-              "Lox": "lox",
-              "": "mermaid",
-              "SSH Config": "ssh_config",
-              "CSharp": "csharp",
-              "Assembly": "asm",
-              "C3": "c3",
-              "LOG": "log",
-              "RPM Spec": "rpmspec",
-              "Crystal": "crystal",
-              "Smithy": "smithy",
-              "Tera": "tera",
-              "move": "move",
-              "Kdl": "kdl",
-              "Nim": "nim",
-              "SQL": "sql",
-              "TSX": "tsx",
-              "Markdown": "markdown",
-              "Cap'n Proto": "capnp",
-              "Clojure": "clojure",
-              "Idris2": "idris2",
-              "ActionScript": "actionscript",
-              "Dafny": "dafny",
-              "Tera (CSS)": "tera-css",
-              "CUE": "cue",
-              "Markdown-Inline": "markdown-inline",
-              "Astro": "astro",
-              "iCal": "vcard",
-              "Luau": "luau",
-              "SageMath": "sage",
-              "RON": "ron",
-              "WDL": "wdl",
-              "vCard": "vcard",
-              "pica200": "pica200",
-              "Amber": "amber",
-              "OMNeT++ NED": "ned",
-              "Org": "org",
-              "OpenSCAD": "openscad",
-              "TypeScript": "typescript",
-              "Nix": "nix",
-              "Swift": "swift",
-              "HTML": "html",
-              "JSDoc": "jsdoc",
-              "R": "r",
-              "Earthfile": "earthfile",
-              "Python": "python",
-              "Simula": "simula",
-              "Roc": "roc",
-              "Blueprint": "blueprint",
-              "Cpp2": "cpp2",
-              "Terraform": "terraform",
-              "Fountain": "fountain",
-              "D": "d",
-              "Tera (YAML)": "tera-yaml",
-              "LilyPond Scheme": "lilypond_scheme",
-              "AWK": "awk",
-              "Elm": "elm",
-              "Diff": "diff",
-              "HCL": "hcl",
-              "Cairo": "cairo",
-              "DOT": "dot",
-              "Git Attributes": "gitattributes",
-              "JSON": "json",
-              "rego": "rego",
-              "Animation.txt": "animationtxt",
               "PHPDoc": "phpdoc",
-              "Cedar": "cedar",
-              "Handlebars": "glimmer",
-              "Solidity": "solidity",
-              "Sourcepawn": "sourcepawn",
-              "ziggy-schema": "ziggy-schema",
-              "Standard ML": "sml",
-              "env": "env",
-              "Unison": "unison",
-              "Perl": "perl",
-              "BQN": "BQN",
-              "Surreal Query Language": "surql",
-              "Exograph": "exograph",
-              "Make": "make",
-              "Strace": "strace",
-              "HEEX": "heex",
-              "OMNeT++ MSG": "msg",
-              "Shell Script": "bash",
-              "Cypher": "cypher",
-              "Twig": "twig",
-              "Kotlin": "kotlin",
-              "Tera (TOML)": "tera-toml",
               "DBML": "dbml",
-              "Cython": "cython",
-              "Scheme": "scheme",
-              "Julia": "julia",
-              "Go Sum": "gosum",
-              "Dune": "dune",
-              "Haskell": "haskell",
-              "JavaScript": "javascript",
-              "Nu": "nu",
-              "Slim": "slim",
-              "Properties": "properties",
-              "PureScript": "purescript",
-              "ziggy": "ziggy",
-              "Scala": "scala",
-              "Fish": "fish",
-              "Nickel": "nickel",
-              "Terraform Vars": "terraform-vars",
-              "Pest": "pest",
-              "Jinja2": "jinja2",
-              "Rainbow CSV": "csv",
-              "ini": "ini",
-              "IPKG": "ipkg",
-              "LaTeX": "latex",
-              "Elixir": "elixir",
-              "Docker Compose": "docker-compose",
-              "XML": "xml",
-              "Rhai": "rhai",
-              "AsciiDoc": "asciidoc",
-              "Ansible": "ansible",
-              "Jsonnet": "jsonnet",
-              "devicetree": "devicetree",
-              "Cadence": "cadence",
-              "CMake": "cmake",
-              "reST": "rst",
-              "Pug": "pug",
-              "Lua": "lua",
-              "Prisma": "prisma",
-              "tmux": "tmux",
-              "WIT": "wit",
-              "Move": "move",
-              "Regex": "regex",
-              "Java": "java",
-              "C++": "cpp",
-              "whkd": "whkd",
+              "Nginx": "nginx",
+              "Nim Format String": "nim_format_string",
+              "PowerShell": "powershell",
+              "LilyPond Scheme": "lilypond_scheme",
+              "Agda": "agda",
+              "Dart": "dart",
+              "RBS": "rbs",
+              "Cairo": "cairo",
+              "Strace": "strace",
+              "R": "r",
               "DuckyScript": "duckyscript",
+              "Cap'n Proto": "capnp",
+              "Groovy": "groovy",
+              "HCL": "hcl",
+              "AWK": "awk",
+              "Kdl": "kdl",
+              "Diff": "diff",
+              "Perm": "perm",
+              "LaTeX": "latex",
+              "Amber": "amber",
+              "Simula": "simula",
+              "Uiua": "uiua",
+              "Verilog": "verilog",
+              "ActionScript": "actionscript",
+              "QML": "qml",
+              "Rhai": "rhai",
+              "Tera (HTML)": "tera-html",
+              "COBOL": "cobol",
+              "Blueprint": "blueprint",
+              "Cylc": "cylc",
+              "Scheme": "scheme",
+              "GDScript": "gdscript",
+              "pica200": "pica200",
+              "Slim": "slim",
+              "FSharp": "fsharp",
+              "devicetree": "devicetree",
+              "Cooklang": "cooklang",
+              "C": "c",
+              "LilyPond": "lilypond",
+              "Erlang": "erlang",
+              "Rainbow TSV": "tsv",
+              "ReScript": "rescript",
+              "Elixir": "elixir",
+              "Elisp": "elisp",
+              "SageMath": "sage",
+              "CSharp": "csharp",
+              "vCard": "vcard",
+              "Fortran": "fortran",
+              "Gren": "gren",
+              "BQN": "BQN",
+              "reST": "rst",
+              "Nickel": "nickel",
+              "TypeScript": "typescript",
+              "Tera (TOML)": "tera-toml",
+              "VRL": "vrl",
+              "Tree-sitter Query": "query",
+              "Roc": "roc",
+              "CONL": "conl",
+              "Dune": "dune",
+              "Elm": "elm",
+              "SQL": "sql",
+              "RON": "ron",
+              "Tera (JSON)": "tera-json",
+              "Helm": "helm",
+              "Firebase Rules": "firebase-security-rules",
+              "CSS": "css",
+              "Git Ignore": "gitignore",
+              "EDI X12": "edi-x12",
+              "JSONC": "jsonc",
+              "Jsonnet": "jsonnet",
+              "Jinja2": "jinja2",
+              "Kconfig": "kconfig",
+              "Hurl": "hurl",
+              "Git Config": "gitconfig",
+              "Liquid": "liquid",
+              "Gemini": "gemini",
+              "Dockerfile": "dockerfile",
+              "Solidity": "solidity",
+              "Navi Stream": "navi_stream",
+              "HLSL": "hlsl",
+              "Pest": "pest",
+              "PureScript": "purescript",
+              "Haskell": "haskell",
+              "Markdown-Inline": "markdown-inline",
+              "Janet": "janet",
+              "D": "d",
+              "Java": "java",
+              "ziggy-schema": "ziggy-schema",
+              "Assembly": "asm",
+              "Standard ML": "sml",
+              "IPKG": "ipkg",
+              "Bend": "bend",
+              "JSON": "json",
+              "Org": "org",
+              "Noir": "noir",
+              "Swift": "swift",
+              "YAML": "yaml",
+              "http": "http",
+              "CSV": "csv",
+              "Lua": "lua",
+              "HTML": "html",
+              "HEEX": "heex",
+              "whkd": "whkd",
+              "Tera": "tera",
+              "Vala": "vala",
+              "Luau": "luau",
+              "CMake": "cmake",
+              "Cpp2": "cpp2",
+              "Blade": "blade",
+              "AsciiDoc": "asciidoc",
+              "Proto": "proto",
+              "Nu": "nu",
+              "VHS": "vhs",
+              "Perl": "perl",
+              "Cython": "cython",
+              "OpenSCAD": "openscad",
+              "BibTeX": "bibtex",
+              "Git Commit": "gitcommit",
+              "Aiken": "aiken",
+              "GraphQL": "graphql",
+              "": "mermaid",
+              "bazelrc": "bazelrc",
+              "Templ": "templ",
+              "iCal": "vcard",
+              "Cypher": "cypher",
+              "Yara": "yara",
+              "Fountain": "fountain",
+              "WDL": "wdl",
+              "Starlark": "starlark",
+              "OCaml Interface": "ocaml-interface",
+              "ziggy": "ziggy",
+              "Racket": "racket",
+              "QuakeC": "quakec",
+              "OCaml": "ocaml",
+              "Haml": "haml",
+              "Ruby": "ruby",
+              "JavaScript": "javascript",
+              "Odin": "odin",
+              "Haxe": "haxe",
+              "move": "move",
+              "cfhtml": "cfhtml",
+              "ERB": "erb",
+              "PlantUML": "plantuml",
+              "Lox": "lox",
+              "Cedar": "cedar",
+              "Go Sum": "gosum",
+              "OMNeT++ MSG": "msg",
+              "Pkl": "pkl",
+              "Svelte": "svelte",
+              "Tera (YAML)": "tera-yaml",
+              "Unison": "unison",
+              "Sourcepawn": "sourcepawn",
+              "SCSS": "scss",
+              "Clojure": "clojure",
+              "MATLAB": "matlab",
+              "FlatBuffers": "flatbuffers",
+              "Caddyfile": "caddyfile",
+              "OMNeT++ NED": "ned",
+              "Curry": "curry",
+              "Kotlin": "kotlin",
+              "Fish": "fish",
+              "Navi": "navi",
+              "C3": "c3",
+              "Snakemake": "snakemake",
+              "RCL": "rcl",
+              "Docker Compose": "docker-compose",
+              "Handlebars": "glimmer",
+              "Pug": "pug",
+              "Zig": "zig",
+              "GLSL": "glsl",
+              "bitbake": "bitbake",
+              "Typst": "typst",
+              "LOG": "log",
+              "Properties": "properties",
+              "PHP": "php",
+              "Hare": "hare",
+              "Pact": "pact",
+              "Crystal": "crystal",
+              "Nix": "nix",
+              "D2": "d2",
               "Rust": "rust",
-              "Prolog": "prolog"
+              "Stan": "stan",
+              "EJS": "ejs",
+              "Exograph": "exograph",
+              "Wgsl": "wgsl",
+              "Animation.txt": "animationtxt",
+              "Go Work": "gowork",
+              "Python": "python",
+              "WebAssembly Text Format": "wat",
+              "Nim": "nim",
+              "Julia": "julia",
+              "Ada": "ada",
+              "CUE": "cue",
+              "Vue.js": "vue",
+              "Go Mod": "gomod",
+              "Prolog": "prolog",
+              "V": "v",
+              "WIT": "wit",
+              "Pdxinfo": "pdxinfo",
+              "Terraform Vars": "terraform-vars",
+              "RPM Spec": "rpmspec",
+              "Astro": "astro",
+              "Path of Exile Filter": "poe-filter",
+              "Make": "make",
+              "Markdown": "markdown",
+              "DOT": "dot",
+              "Gleam": "gleam",
+              "Regex": "regex",
+              "LESS": "less",
+              "Scala": "scala",
+              "rego": "rego",
+              "Terraform": "terraform",
+              "SSH Config": "ssh_config",
+              "C++": "cpp",
+              "edge": "edge",
+              "Just": "just",
+              "env": "env",
+              "CFEngine": "cfengine",
+              "Beancount": "beancount",
+              "Godot Resource": "godot_resource",
+              "Dafny": "dafny",
+              "Prisma": "prisma",
+              "JSDoc": "jsdoc",
+              "Ansible": "ansible",
+              "ISLE": "isle",
+              "Cadence": "cadence",
+              "Rainbow CSV": "csv",
+              "Git Attributes": "gitattributes",
+              "Shell Script": "bash",
+              "tmux": "tmux",
+              "TOML": "toml",
+              "Vento": "vento",
+              "ECR": "ecr",
+              "VHDL": "vhdl",
+              "Idris2": "idris2",
+              "Earthfile": "earthfile",
+              "Gherkin": "gherkin",
+              "GROQ": "groq",
+              "cfscript": "cfscript",
+              "Move": "move",
+              "Brainfuck": "brainfuck",
+              "XML": "xml",
+              "Twig": "twig",
+              "Smithy": "smithy",
+              "Tera (CSS)": "tera-css",
+              "cfml": "cfml",
+              "Go": "go",
+              "Inform 6": "inform6",
+              "Surreal Query Language": "surql",
+              "Git Rebase": "gitrebase",
+              "TSX": "tsx",
+              "ini": "ini"
             },
             "code_action_kinds": null
           }
@@ -755,9 +728,7 @@
         "schema_version": 1,
         "description": "Syntax highlighting for Docker Compose files",
         "repository": "https://github.com/eth0net/zed-docker-compose",
-        "authors": [
-          "eth0net <eth0net@pm.me>"
-        ],
+        "authors": ["eth0net <eth0net@pm.me>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
@@ -789,19 +760,14 @@
         "schema_version": 1,
         "description": "Dockerfile support.",
         "repository": "https://github.com/zed-extensions/dockerfile",
-        "authors": [
-          "d1y <chenhonzho@gmail.com>",
-          "joshmeads <github@joshmeads.com>"
-        ],
+        "authors": ["d1y <chenhonzho@gmail.com>", "joshmeads <github@joshmeads.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/dockerfile"
-        ],
+        "languages": ["languages/dockerfile"],
         "grammars": {
           "dockerfile": {
             "repository": "https://github.com/camdencheek/tree-sitter-dockerfile",
@@ -832,9 +798,7 @@
         "schema_version": 1,
         "description": "Emmet support",
         "repository": "https://github.com/zed-extensions/emmet",
-        "authors": [
-          "Piotr Osiewicz <piotr@zed.dev>"
-        ],
+        "authors": ["Piotr Osiewicz <piotr@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
@@ -846,31 +810,19 @@
         "language_servers": {
           "emmet-language-server": {
             "language": "HTML",
-            "languages": [
-              "HTML",
-              "PHP",
-              "ERB",
-              "HTML+ERB",
-              "HTML/ERB",
-              "JavaScript",
-              "TSX",
-              "CSS",
-              "HEEX",
-              "Elixir",
-              "Vue.js"
-            ],
+            "languages": ["HTML", "PHP", "ERB", "HTML+ERB", "HTML/ERB", "JavaScript", "TSX", "CSS", "HEEX", "Elixir", "Vue.js"],
             "language_ids": {
-              "HTML+ERB": "eruby",
-              "ERB": "eruby",
+              "Vue.js": "vue",
               "CSS": "css",
+              "PHP": "php",
+              "TSX": "typescriptreact",
+              "ERB": "eruby",
               "Elixir": "heex",
               "HTML": "html",
-              "HEEX": "heex",
-              "TSX": "typescriptreact",
-              "PHP": "php",
+              "HTML/ERB": "eruby",
               "JavaScript": "javascriptreact",
-              "Vue.js": "vue",
-              "HTML/ERB": "eruby"
+              "HEEX": "heex",
+              "HTML+ERB": "eruby"
             },
             "code_action_kinds": null
           }
@@ -890,18 +842,14 @@
         "schema_version": 0,
         "description": "Fish language support for Zed",
         "repository": "https://github.com/hasit/zed-fish",
-        "authors": [
-          "Hasit Mistry <hasitnm@gmail.com>"
-        ],
+        "authors": ["Hasit Mistry <hasitnm@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/fish"
-        ],
+        "languages": ["languages/fish"],
         "grammars": {
           "fish": {
             "repository": "https://github.com/ram02z/tree-sitter-fish",
@@ -925,16 +873,12 @@
         "schema_version": 1,
         "description": "🚢 Transform Zed with Fleet's sleek, modern aesthetic for a sublime coding experience.",
         "repository": "https://github.com/skarline/zed-fleet-themes",
-        "authors": [
-          "Lihuen Molina <lihue.molina@gmail.com>"
-        ],
+        "authors": ["Lihuen Molina <lihue.molina@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/fleet.json"
-        ],
+        "themes": ["themes/fleet.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -954,10 +898,7 @@
         "schema_version": 1,
         "description": "Provides Git Syntax Highlighting",
         "repository": "https://github.com/d1y/git_firefly",
-        "authors": [
-          "d1y <chenhonzhou@gmail.com>",
-          "Peter Tripp <petertripp@gmail.com>"
-        ],
+        "authors": ["d1y <chenhonzhou@gmail.com>", "Peter Tripp <petertripp@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
@@ -1014,16 +955,12 @@
         "schema_version": 1,
         "description": "A modified port of the GitHub VSCode theme",
         "repository": "https://github.com/mordfustang21/zed-github-dark",
-        "authors": [
-          "MordFustang21"
-        ],
+        "authors": ["MordFustang21"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/dark-default.json"
-        ],
+        "themes": ["themes/dark-default.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -1043,17 +980,12 @@
         "schema_version": 1,
         "description": "GitHub themes for Zed",
         "repository": "https://github.com/PyaeSoneAungRgn/github-zed-theme",
-        "authors": [
-          "Pyae Sone Aung <pyaesoneaungrgn@gmail.com>",
-          "Clay Tercek"
-        ],
+        "authors": ["Pyae Sone Aung <pyaesoneaungrgn@gmail.com>", "Clay Tercek"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/github_theme.json"
-        ],
+        "themes": ["themes/github_theme.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -1073,18 +1005,14 @@
         "schema_version": 1,
         "description": "GLSL support.",
         "repository": "https://github.com/zed-industries/zed",
-        "authors": [
-          "Mikayla Maki <mikayla@zed.dev>"
-        ],
+        "authors": ["Mikayla Maki <mikayla@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/glsl"
-        ],
+        "languages": ["languages/glsl"],
         "grammars": {
           "glsl": {
             "repository": "https://github.com/theHamsta/tree-sitter-glsl",
@@ -1115,18 +1043,14 @@
         "schema_version": 1,
         "description": "HTML support.",
         "repository": "https://github.com/zed-industries/zed",
-        "authors": [
-          "Isaac Clayton <slightknack@gmail.com>"
-        ],
+        "authors": ["Isaac Clayton <slightknack@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/html"
-        ],
+        "languages": ["languages/html"],
         "grammars": {
           "html": {
             "repository": "https://github.com/tree-sitter/tree-sitter-html",
@@ -1139,8 +1063,8 @@
             "language": "HTML",
             "languages": [],
             "language_ids": {
-              "CSS": "css",
-              "HTML": "html"
+              "HTML": "html",
+              "CSS": "css"
             },
             "code_action_kinds": null
           }
@@ -1160,20 +1084,14 @@
         "schema_version": 1,
         "description": "Syntax highlighting for log files.",
         "repository": "https://github.com/nervenes/zed-log",
-        "authors": [
-          "nervenes",
-          "notpeter",
-          "d1y"
-        ],
+        "authors": ["nervenes", "notpeter", "d1y"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/log"
-        ],
+        "languages": ["languages/log"],
         "grammars": {
           "log": {
             "repository": "https://github.com/Tudyx/tree-sitter-log",
@@ -1197,16 +1115,12 @@
         "schema_version": 1,
         "description": "A macOS native style theme, let it same like native app in macOS.",
         "repository": "https://github.com/huacnlee/zed-theme-macos-classic",
-        "authors": [
-          "Jason Lee <huacnlee@gmail.com>"
-        ],
+        "authors": ["Jason Lee <huacnlee@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/macos-classic.json"
-        ],
+        "themes": ["themes/macos-classic.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -1240,9 +1154,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/make"
-        ],
+        "languages": ["languages/make"],
         "grammars": {
           "make": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-make",
@@ -1266,9 +1178,7 @@
         "schema_version": 1,
         "description": "Obsidian-Inspired PKM Language Server for Zed",
         "repository": "https://github.com/Feel-ix-343/markdown-oxide",
-        "authors": [
-          "Felix Zeller <felixazeller@gmail.com>"
-        ],
+        "authors": ["Felix Zeller <felixazeller@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.4"
@@ -1300,16 +1210,12 @@
         "schema_version": 1,
         "description": "Theme that imitates Google's Material Dark theme.",
         "repository": "https://github.com/xerodark/zed-material-theme",
-        "authors": [
-          "Xero <xeroday@duck.com>"
-        ],
+        "authors": ["Xero <xeroday@duck.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/zed_material_theme.json"
-        ],
+        "themes": ["themes/zed_material_theme.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -1329,9 +1235,7 @@
         "schema_version": 1,
         "description": "A collection of useful NEXTJS + React + JavaScript snippets to speed up your development.",
         "repository": "https://github.com/Konstantinos-Ps/zed-nextjs-react-snippets",
-        "authors": [
-          "Konstantinos Psychogios"
-        ],
+        "authors": ["Konstantinos Psychogios"],
         "lib": {
           "kind": null,
           "version": null
@@ -1356,18 +1260,14 @@
         "schema_version": 1,
         "description": "Nginx support",
         "repository": "https://github.com/d1y/nginx-zed",
-        "authors": [
-          "d1y <chenhonzhou@gmail.com>"
-        ],
+        "authors": ["d1y <chenhonzhou@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/nginx"
-        ],
+        "languages": ["languages/nginx"],
         "grammars": {
           "nginx": {
             "repository": "https://gitlab.com/joncoole/tree-sitter-nginx",
@@ -1398,18 +1298,14 @@
         "schema_version": 1,
         "description": "Nix support.",
         "repository": "https://github.com/zed-extensions/nix",
-        "authors": [
-          "Hasit Mistry <hasitnm@gmail.com>"
-        ],
+        "authors": ["Hasit Mistry <hasitnm@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/nix"
-        ],
+        "languages": ["languages/nix"],
         "grammars": {
           "nix": {
             "repository": "https://github.com/nix-community/tree-sitter-nix",
@@ -1446,16 +1342,12 @@
         "schema_version": 1,
         "description": "A port of the Neovim Nightfox themes. Includes all variants as opaque and blurred version.",
         "repository": "https://github.com/cange/nightfox.zed",
-        "authors": [
-          "Christian Angermann"
-        ],
+        "authors": ["Christian Angermann"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/nvim-nightfox.json"
-        ],
+        "themes": ["themes/nvim-nightfox.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -1475,16 +1367,12 @@
         "schema_version": 1,
         "description": "The popular Palenight theme now in Zed!",
         "repository": "https://github.com/alanmontgomery/palenight-zed",
-        "authors": [
-          "Alan Montgomery <alanmontgomerycoding@gmail.com>"
-        ],
+        "authors": ["Alan Montgomery <alanmontgomerycoding@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/palenight.json"
-        ],
+        "themes": ["themes/palenight.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -1504,19 +1392,14 @@
         "schema_version": 1,
         "description": "PHP support.",
         "repository": "https://github.com/zed-extensions/php",
-        "authors": [
-          "Piotr Osiewicz <piotr@zed.dev>"
-        ],
+        "authors": ["Piotr Osiewicz <piotr@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/php",
-          "languages/phpdoc"
-        ],
+        "languages": ["languages/php", "languages/phpdoc"],
         "grammars": {
           "php": {
             "repository": "https://github.com/tree-sitter/tree-sitter-php",
@@ -1573,19 +1456,14 @@
         "schema_version": 1,
         "description": "Prisma support.",
         "repository": "https://github.com/zed-extensions/prisma",
-        "authors": [
-          "Matthew Gramigna <matthewgramigna@gmail.com>",
-          "Victor Quiroz <git@victorhqc.com>"
-        ],
+        "authors": ["Matthew Gramigna <matthewgramigna@gmail.com>", "Victor Quiroz <git@victorhqc.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/prisma"
-        ],
+        "languages": ["languages/prisma"],
         "grammars": {
           "prisma": {
             "repository": "https://github.com/victorhqc/tree-sitter-prisma",
@@ -1616,18 +1494,14 @@
         "schema_version": 1,
         "description": "Protocol Buffers support.",
         "repository": "https://github.com/zed-industries/zed",
-        "authors": [
-          "Zed Industries <support@zed.dev>"
-        ],
+        "authors": ["Zed Industries <support@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/proto"
-        ],
+        "languages": ["languages/proto"],
         "grammars": {
           "proto": {
             "repository": "https://github.com/zed-industries/tree-sitter-proto",
@@ -1638,9 +1512,7 @@
         "language_servers": {
           "protobuf-language-server": {
             "language": null,
-            "languages": [
-              "Proto"
-            ],
+            "languages": ["Proto"],
             "language_ids": {},
             "code_action_kinds": null
           }
@@ -1660,9 +1532,7 @@
         "schema_version": 1,
         "description": "Python snippets for Zed IDE. A collection of python snippets to improve your development speed.",
         "repository": "https://github.com/jctosta/python-zed-snippets",
-        "authors": [
-          "Carlos Tosta <jctosta86@gmail.com>"
-        ],
+        "authors": ["Carlos Tosta <jctosta86@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
@@ -1687,18 +1557,14 @@
         "schema_version": 1,
         "description": "QML support.",
         "repository": "https://github.com/lkroll/zed-qml",
-        "authors": [
-          "Lennart Kroll <24440161+lkroll@users.noreply.github.com>"
-        ],
+        "authors": ["Lennart Kroll <24440161+lkroll@users.noreply.github.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/qml"
-        ],
+        "languages": ["languages/qml"],
         "grammars": {
           "qmljs": {
             "repository": "https://github.com/yuja/tree-sitter-qmljs",
@@ -1741,9 +1607,7 @@
         "language_servers": {
           "ruff": {
             "language": null,
-            "languages": [
-              "Python"
-            ],
+            "languages": ["Python"],
             "language_ids": {},
             "code_action_kinds": null
           }
@@ -1763,18 +1627,14 @@
         "schema_version": 1,
         "description": "SCSS support",
         "repository": "https://github.com/bajrangCoder/zed-scss",
-        "authors": [
-          "Raunak Raj <bajrangcoders@gmail.com>"
-        ],
+        "authors": ["Raunak Raj <bajrangcoders@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/scss"
-        ],
+        "languages": ["languages/scss"],
         "grammars": {
           "scss": {
             "repository": "https://github.com/savetheclocktower/tree-sitter-scss",
@@ -1811,19 +1671,13 @@
         "schema_version": 1,
         "description": "Relaxed, gentle and modern | Serendipity theme for Zed",
         "repository": "https://github.com/meocoder31099/Serendipity-Theme-Zed",
-        "authors": [
-          "Nguyen Dang Vinh <meocoder@gmail.com>"
-        ],
+        "authors": ["Nguyen Dang Vinh <meocoder@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/serendipity.json"
-        ],
-        "icon_themes": [
-          "icon_themes/serendipity-icon-theme.json"
-        ],
+        "themes": ["themes/serendipity.json"],
+        "icon_themes": ["icon_themes/serendipity-icon-theme.json"],
         "languages": [],
         "grammars": {},
         "language_servers": {},
@@ -1842,21 +1696,14 @@
         "schema_version": 1,
         "description": "SQL language support.",
         "repository": "https://github.com/zed-extensions/sql",
-        "authors": [
-          "nervenes",
-          "notpeter",
-          "phileix",
-          "tammyxiong"
-        ],
+        "authors": ["nervenes", "notpeter", "phileix", "tammyxiong"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/sql"
-        ],
+        "languages": ["languages/sql"],
         "grammars": {
           "sql": {
             "repository": "https://github.com/DerekStride/tree-sitter-sql",
@@ -1880,9 +1727,7 @@
         "schema_version": 1,
         "description": "Superhtml support.",
         "repository": "https://github.com/WeetHet/superhtml-zed",
-        "authors": [
-          "WeetHet <stas.ale66@gmail.com>"
-        ],
+        "authors": ["WeetHet <stas.ale66@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
@@ -1894,9 +1739,7 @@
         "language_servers": {
           "superhtml": {
             "language": null,
-            "languages": [
-              "HTML"
-            ],
+            "languages": ["HTML"],
             "language_ids": {},
             "code_action_kinds": null
           }
@@ -1916,18 +1759,14 @@
         "schema_version": 1,
         "description": "Svelte support",
         "repository": "https://github.com/zed-extensions/svelte",
-        "authors": [
-          "Zed Industries <support@zed.dev>"
-        ],
+        "authors": ["Zed Industries <support@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/svelte"
-        ],
+        "languages": ["languages/svelte"],
         "grammars": {
           "svelte": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-svelte",
@@ -1958,9 +1797,7 @@
         "schema_version": 1,
         "description": "Svelte snippets for the Zed IDE. A collection of Svelte snippets to improve your development speed.",
         "repository": "https://github.com/bobbymannino/svelte-snippets-for-zed",
-        "authors": [
-          "Bobby Mannino <manninobobby@icloud.com>"
-        ],
+        "authors": ["Bobby Mannino <manninobobby@icloud.com>"],
         "lib": {
           "kind": null,
           "version": null
@@ -1985,21 +1822,14 @@
         "schema_version": 1,
         "description": "Terraform support.",
         "repository": "https://github.com/zed-extensions/terraform",
-        "authors": [
-          "Caius Durling <dev@caius.name>",
-          "Daniel Banck <dbanck@users.noreply.github.com>"
-        ],
+        "authors": ["Caius Durling <dev@caius.name>", "Daniel Banck <dbanck@users.noreply.github.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/terraform-vars",
-          "languages/terraform",
-          "languages/hcl"
-        ],
+        "languages": ["languages/terraform-vars", "languages/terraform", "languages/hcl"],
         "grammars": {
           "hcl": {
             "repository": "https://github.com/MichaHoffmann/tree-sitter-hcl",
@@ -2010,10 +1840,7 @@
         "language_servers": {
           "terraform-ls": {
             "language": null,
-            "languages": [
-              "Terraform",
-              "Terraform Vars"
-            ],
+            "languages": ["Terraform", "Terraform Vars"],
             "language_ids": {
               "Terraform": "terraform",
               "Terraform Vars": "terraform-vars"
@@ -2036,19 +1863,14 @@
         "schema_version": 1,
         "description": "TOML support.",
         "repository": "https://github.com/zed-extensions/toml",
-        "authors": [
-          "Max Brunsfeld <max@zed.dev>",
-          "Ammar Arif <evergreenkary@gmail.com>"
-        ],
+        "authors": ["Max Brunsfeld <max@zed.dev>", "Ammar Arif <evergreenkary@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/toml"
-        ],
+        "languages": ["languages/toml"],
         "grammars": {
           "toml": {
             "repository": "https://github.com/tree-sitter/tree-sitter-toml",
@@ -2072,18 +1894,14 @@
         "schema_version": 1,
         "description": "Syntax highlighting and Intellisense for Twig in Zed",
         "repository": "https://github.com/YussufSassi/zed-twig",
-        "authors": [
-          "Yussuf Sassi <yussuf@tuta.io>"
-        ],
+        "authors": ["Yussuf Sassi <yussuf@tuta.io>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/twig"
-        ],
+        "languages": ["languages/twig"],
         "grammars": {
           "twig": {
             "repository": "https://github.com/jannisborgers/tree-sitter-twig",
@@ -2114,18 +1932,14 @@
         "schema_version": 1,
         "description": "Typst support.",
         "repository": "https://github.com/weethet/typst.zed",
-        "authors": [
-          "WeetHet <stas.ale66@gmail.com>"
-        ],
+        "authors": ["WeetHet <stas.ale66@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/typst"
-        ],
+        "languages": ["languages/typst"],
         "grammars": {
           "typst": {
             "repository": "https://github.com/uben0/tree-sitter-typst",
@@ -2156,16 +1970,12 @@
         "schema_version": 0,
         "description": "Portable Vscode Dark Plus Theme",
         "repository": "https://github.com/d1y/vscode_dark_plus.zed",
-        "authors": [
-          "d1y <chenhonzhou@gmail.com>"
-        ],
+        "authors": ["d1y <chenhonzhou@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/vscode_dark_plus.json"
-        ],
+        "themes": ["themes/vscode_dark_plus.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -2185,17 +1995,13 @@
         "schema_version": 1,
         "description": "VSCode great icons theme for Zed",
         "repository": "https://github.com/randazraik/zed-vscode-great-icons",
-        "authors": [
-          "Randa Zraik <randazraik@outlook.com>"
-        ],
+        "authors": ["Randa Zraik <randazraik@outlook.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
-        "icon_themes": [
-          "icon_themes/vscode-icons-theme.json"
-        ],
+        "icon_themes": ["icon_themes/vscode-icons-theme.json"],
         "languages": [],
         "grammars": {},
         "language_servers": {},
@@ -2214,17 +2020,13 @@
         "schema_version": 1,
         "description": "VSCode icons theme for Zed",
         "repository": "https://github.com/pranavmangal/zed-vscode-icons",
-        "authors": [
-          "Pranav Mangal <pranav.mangal.7@gmail.com>"
-        ],
+        "authors": ["Pranav Mangal <pranav.mangal.7@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
-        "icon_themes": [
-          "icon_themes/vscode-icons-theme.json"
-        ],
+        "icon_themes": ["icon_themes/vscode-icons-theme.json"],
         "languages": [],
         "grammars": {},
         "language_servers": {},
@@ -2243,18 +2045,14 @@
         "schema_version": 1,
         "description": "Vue support.",
         "repository": "https://github.com/zed-extensions/vue",
-        "authors": [
-          "Zed Industries <support@zed.dev>"
-        ],
+        "authors": ["Zed Industries <support@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.4.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/vue"
-        ],
+        "languages": ["languages/vue"],
         "grammars": {
           "vue": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-vue",
@@ -2269,11 +2067,7 @@
             "language_ids": {
               "Vue.js": "vue"
             },
-            "code_action_kinds": [
-              "",
-              "quickfix",
-              "refactor.rewrite"
-            ]
+            "code_action_kinds": ["", "quickfix", "refactor.rewrite"]
           }
         },
         "context_servers": {},
@@ -2291,16 +2085,12 @@
         "schema_version": 1,
         "description": "🍎 Recreate Xcode's native feel in Zed with authentic themes for a seamless, Apple-inspired coding environment.",
         "repository": "https://github.com/skarline/zed-xcode-themes",
-        "authors": [
-          "Lihuen Molina <lihue.molina@gmail.com>"
-        ],
+        "authors": ["Lihuen Molina <lihue.molina@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/xcode.json"
-        ],
+        "themes": ["themes/xcode.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -2320,16 +2110,12 @@
         "schema_version": 1,
         "description": "a theme for Zed based on the Monokai Pro color scheme",
         "repository": "https://github.com/slymax/zedokai",
-        "authors": [
-          "slymax <contact@slymax.com>"
-        ],
+        "authors": ["slymax <contact@slymax.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/zedokai.json"
-        ],
+        "themes": ["themes/zedokai.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -2349,16 +2135,12 @@
         "schema_version": 1,
         "description": "Light and dark Adwaita theme for Zed.",
         "repository": "https://github.com/someone13574/zed-adwaita-theme",
-        "authors": [
-          "someone13574 <owenlaw222@gmail.com>"
-        ],
+        "authors": ["someone13574 <owenlaw222@gmail.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
-        "themes": [
-          "themes/zedwaita.json"
-        ],
+        "themes": ["themes/zedwaita.json"],
         "icon_themes": [],
         "languages": [],
         "grammars": {},
@@ -2378,18 +2160,14 @@
         "schema_version": 1,
         "description": "Zig support.",
         "repository": "https://github.com/zed-extensions/zig",
-        "authors": [
-          "Allan Calix <contact@acx.dev>"
-        ],
+        "authors": ["Allan Calix <contact@acx.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/zig"
-        ],
+        "languages": ["languages/zig"],
         "grammars": {
           "zig": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-zig",
@@ -2423,19 +2201,14 @@
         "schema_version": 1,
         "description": "Ziggy and ziggy schema support for Zed",
         "repository": "https://github.com/lvignoli/zed-ziggy",
-        "authors": [
-          "Louis Vignoli <louis.vignoli@gmail.com>"
-        ],
+        "authors": ["Louis Vignoli <louis.vignoli@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/ziggy",
-          "languages/ziggy-schema"
-        ],
+        "languages": ["languages/ziggy", "languages/ziggy-schema"],
         "grammars": {
           "ziggy": {
             "repository": "https://github.com/lvignoli/tree-sitter-ziggy",
@@ -2921,9 +2694,7 @@
       "extension": "csharp",
       "path": "languages/csharp",
       "matcher": {
-        "path_suffixes": [
-          "cs"
-        ],
+        "path_suffixes": ["cs"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -2933,11 +2704,7 @@
       "extension": "dockerfile",
       "path": "languages/dockerfile",
       "matcher": {
-        "path_suffixes": [
-          "Dockerfile",
-          "Containerfile",
-          "dockerfile"
-        ],
+        "path_suffixes": ["Dockerfile", "Containerfile", "dockerfile"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -2947,9 +2714,7 @@
       "extension": "fish",
       "path": "languages/fish",
       "matcher": {
-        "path_suffixes": [
-          "fish"
-        ],
+        "path_suffixes": ["fish"],
         "first_line_pattern": "^#!.*\\bfish\\b"
       },
       "hidden": false,
@@ -2983,10 +2748,7 @@
       "extension": "cucumber",
       "path": "languages/gherkin",
       "matcher": {
-        "path_suffixes": [
-          "feature",
-          "gherkin"
-        ],
+        "path_suffixes": ["feature", "gherkin"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -2996,10 +2758,7 @@
       "extension": "git-firefly",
       "path": "languages/gitattributes",
       "matcher": {
-        "path_suffixes": [
-          "gitattributes",
-          ".gitattributes"
-        ],
+        "path_suffixes": ["gitattributes", ".gitattributes"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3009,13 +2768,7 @@
       "extension": "git-firefly",
       "path": "languages/gitcommit",
       "matcher": {
-        "path_suffixes": [
-          "COMMIT_EDITMSG",
-          "EDIT_DESCRIPTION",
-          "MERGE_MSG",
-          "NOTES_EDITMSG",
-          "TAG_EDITMSG"
-        ],
+        "path_suffixes": ["COMMIT_EDITMSG", "EDIT_DESCRIPTION", "MERGE_MSG", "NOTES_EDITMSG", "TAG_EDITMSG"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3025,12 +2778,7 @@
       "extension": "git-firefly",
       "path": "languages/gitconfig",
       "matcher": {
-        "path_suffixes": [
-          "config.worktree",
-          ".gitconfig",
-          ".gitmodules",
-          ".lfsconfig"
-        ],
+        "path_suffixes": ["config.worktree", ".gitconfig", ".gitmodules", ".lfsconfig"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3063,9 +2811,7 @@
       "extension": "git-firefly",
       "path": "languages/gitrebase",
       "matcher": {
-        "path_suffixes": [
-          "git-rebase-todo"
-        ],
+        "path_suffixes": ["git-rebase-todo"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3075,9 +2821,7 @@
       "extension": "terraform",
       "path": "languages/hcl",
       "matcher": {
-        "path_suffixes": [
-          "hcl"
-        ],
+        "path_suffixes": ["hcl"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3087,11 +2831,7 @@
       "extension": "html",
       "path": "languages/html",
       "matcher": {
-        "path_suffixes": [
-          "html",
-          "htm",
-          "shtml"
-        ],
+        "path_suffixes": ["html", "htm", "shtml"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3101,9 +2841,7 @@
       "extension": "log",
       "path": "languages/log",
       "matcher": {
-        "path_suffixes": [
-          "log"
-        ],
+        "path_suffixes": ["log"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3113,14 +2851,7 @@
       "extension": "make",
       "path": "languages/make",
       "matcher": {
-        "path_suffixes": [
-          "makefile",
-          "Makefile",
-          "GNUmakefile",
-          "OCamlMakefile",
-          "mk",
-          "mak"
-        ],
+        "path_suffixes": ["makefile", "Makefile", "GNUmakefile", "OCamlMakefile", "mk", "mak"],
         "first_line_pattern": "^#!.*\\b(?:make -f)\\b"
       },
       "hidden": false,
@@ -3130,9 +2861,7 @@
       "extension": "nginx",
       "path": "languages/nginx",
       "matcher": {
-        "path_suffixes": [
-          "nginx.conf"
-        ],
+        "path_suffixes": ["nginx.conf"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3142,9 +2871,7 @@
       "extension": "nix",
       "path": "languages/nix",
       "matcher": {
-        "path_suffixes": [
-          "nix"
-        ],
+        "path_suffixes": ["nix"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3154,9 +2881,7 @@
       "extension": "php",
       "path": "languages/php",
       "matcher": {
-        "path_suffixes": [
-          "php"
-        ],
+        "path_suffixes": ["php"],
         "first_line_pattern": "^#!.*php"
       },
       "hidden": false,
@@ -3176,9 +2901,7 @@
       "extension": "prisma",
       "path": "languages/prisma",
       "matcher": {
-        "path_suffixes": [
-          "prisma"
-        ],
+        "path_suffixes": ["prisma"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3188,9 +2911,7 @@
       "extension": "proto",
       "path": "languages/proto",
       "matcher": {
-        "path_suffixes": [
-          "proto"
-        ],
+        "path_suffixes": ["proto"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3200,9 +2921,7 @@
       "extension": "qml",
       "path": "languages/qml",
       "matcher": {
-        "path_suffixes": [
-          "qml"
-        ],
+        "path_suffixes": ["qml"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3212,9 +2931,7 @@
       "extension": "scss",
       "path": "languages/scss",
       "matcher": {
-        "path_suffixes": [
-          "scss"
-        ],
+        "path_suffixes": ["scss"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3224,9 +2941,7 @@
       "extension": "sql",
       "path": "languages/sql",
       "matcher": {
-        "path_suffixes": [
-          "sql"
-        ],
+        "path_suffixes": ["sql"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3236,9 +2951,7 @@
       "extension": "svelte",
       "path": "languages/svelte",
       "matcher": {
-        "path_suffixes": [
-          "svelte"
-        ],
+        "path_suffixes": ["svelte"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3248,12 +2961,7 @@
       "extension": "toml",
       "path": "languages/toml",
       "matcher": {
-        "path_suffixes": [
-          "Cargo.lock",
-          "toml",
-          "Pipfile",
-          "uv.lock"
-        ],
+        "path_suffixes": ["Cargo.lock", "toml", "Pipfile", "uv.lock"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3263,10 +2971,7 @@
       "extension": "terraform",
       "path": "languages/terraform",
       "matcher": {
-        "path_suffixes": [
-          "tf",
-          "tofu"
-        ],
+        "path_suffixes": ["tf", "tofu"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3276,9 +2981,7 @@
       "extension": "terraform",
       "path": "languages/terraform-vars",
       "matcher": {
-        "path_suffixes": [
-          "tfvars"
-        ],
+        "path_suffixes": ["tfvars"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3288,11 +2991,7 @@
       "extension": "twig",
       "path": "languages/twig",
       "matcher": {
-        "path_suffixes": [
-          "html.twig",
-          "twig",
-          "twig.html"
-        ],
+        "path_suffixes": ["html.twig", "twig", "twig.html"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3302,10 +3001,7 @@
       "extension": "typst",
       "path": "languages/typst",
       "matcher": {
-        "path_suffixes": [
-          "typ",
-          "typst"
-        ],
+        "path_suffixes": ["typ", "typst"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3315,9 +3011,7 @@
       "extension": "vue",
       "path": "languages/vue",
       "matcher": {
-        "path_suffixes": [
-          "vue"
-        ],
+        "path_suffixes": ["vue"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3327,10 +3021,7 @@
       "extension": "zig",
       "path": "languages/zig",
       "matcher": {
-        "path_suffixes": [
-          "zig",
-          "zon"
-        ],
+        "path_suffixes": ["zig", "zon"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3340,10 +3031,7 @@
       "extension": "ziggy",
       "path": "languages/ziggy",
       "matcher": {
-        "path_suffixes": [
-          "ziggy",
-          "zgy"
-        ],
+        "path_suffixes": ["ziggy", "zgy"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -3353,10 +3041,7 @@
       "extension": "ziggy",
       "path": "languages/ziggy-schema",
       "matcher": {
-        "path_suffixes": [
-          "ziggy-schema",
-          "zgy-schema"
-        ],
+        "path_suffixes": ["ziggy-schema", "zgy-schema"],
         "first_line_pattern": null
       },
       "hidden": false,

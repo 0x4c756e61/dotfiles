@@ -23,10 +23,11 @@
   "show_edit_predictions": false,
   "icon_theme": "Catppuccin Mocha",
   "agent": {
+    "single_file_review": false,
     "default_profile": "write",
     "inline_assistant_model": {
       "provider": "zed.dev",
-      "model": "claude-3-7-sonnet"
+      "model": "claude-sonnet-4-thinking"
     },
     "default_model": {
       "provider": "zed.dev",

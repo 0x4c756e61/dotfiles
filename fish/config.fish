@@ -33,6 +33,7 @@ abbr -a -g cd z
 alias ls='eza --icons'
 alias woman='man'
 alias hx="helix"
+alias userctl="systemctl --user"
 # In case sddm is broken, or if for some reason I want to start plama from the tty
 alias startw="dbus-run-session startplasma-wayland"
 alias hm="home-manager"

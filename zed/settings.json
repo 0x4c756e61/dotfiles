@@ -41,10 +41,10 @@
     "edit_prediction_provider": "zed"
   },
   "base_keymap": "VSCode",
-  "theme": "Catppuccin Mocha",
+  "theme": "Catppuccin Espresso (Blur) [Heavy]",
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "buffer_font_family": "Maple Mono NF",
   "terminal": {
     "font_family": "FiraCode Nerd Font Mono"
   },

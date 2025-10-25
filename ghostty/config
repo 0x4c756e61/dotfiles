@@ -1,6 +1,6 @@
 theme = Cobalt Next Minimal
 #theme = Adwaita
-font-family = FiraCode Nerd Font
+font-family = Maple Mono NF
 window-decoration=client
 window-theme=ghostty
 gtk-titlebar=false

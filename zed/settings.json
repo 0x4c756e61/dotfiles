@@ -7,6 +7,23 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "ui_font_family": ".SystemUIFont",
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "show_close_button": "hover",
+    "show_diagnostics": "off",
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": true
+  },
+  "unnecessary_code_fade": 0.7000000476837158,
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -42,11 +59,11 @@
   },
   "base_keymap": "VSCode",
   "theme": "Catppuccin Espresso (Blur) [Heavy]",
-  "ui_font_size": 16,
+  "ui_font_size": 17.8,
   "buffer_font_size": 16,
   "buffer_font_family": "Maple Mono NF",
   "terminal": {
-    "font_family": "FiraCode Nerd Font Mono"
+    "font_family": "Maple Mono NF"
   },
   "preferred_line_length": 128,
   // "language_overrides": {

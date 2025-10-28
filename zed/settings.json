@@ -110,6 +110,7 @@
     "nil": {
       "initialization_options": {
         "nix": {
+          "maxMemoryMB": null,
           "flake": {
             "autoArchive": true,
             "autoEvalInputs": true

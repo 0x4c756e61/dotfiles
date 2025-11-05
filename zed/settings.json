@@ -1,12 +1,5 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `open default settings` command
-// from the command palette or from `Zed` application menu.
 {
+  "vim_mode": false,
   "ui_font_family": ".SystemUIFont",
   "bottom_dock_layout": "contained",
   "tabs": {
@@ -66,32 +59,13 @@
     "font_family": "Maple Mono NF"
   },
   "preferred_line_length": 128,
-  // "language_overrides": {
-  //   "C": {
-  //     "formatter": {
-  //       "external": {
-  //         "command": "clang-format",
-  //         "arguments": ["-style=file", "-assume-filename=~/.clang-format"]
-  //       }
-  //     }
-  //   },
-  //   "C++": {
-  //     "formatter": {
-  //       "external": {
-  //         "command": "clang-format",
-  //         "arguments": ["-style=file", "-assume-filename=~/.clang-format"]
-  //       }
-  //     }
-  //   },
-  //   "PHP": {
-  //     "language_servers": ["intelephense", "!phpactor", "..."]
-  //   }
-  // },
   "lsp": {
     "clangd": {
       "binary": {
         "path": "/usr/bin/clangd",
-        "arguments": ["--enable-config"]
+        "arguments": [
+          "--enable-config"
+        ]
       }
     },
     "intelephense": {
@@ -118,5 +92,60 @@
         }
       }
     }
+  },
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-blur": true,
+    "catppuccin-icons": true,
+    "colorizer": true,
+    "csharp": true,
+    "cucumber": true,
+    "discord-presence": true,
+    "docker-compose": true,
+    "dockerfile": true,
+    "emmet": true,
+    "fish": true,
+    "fleet-themes": true,
+    "git-firefly": true,
+    "github-dark-default": true,
+    "github-theme": true,
+    "glsl": true,
+    "html": true,
+    "log": true,
+    "macos-classic": true,
+    "make": true,
+    "markdown-oxide": true,
+    "material-dark": true,
+    "nextjs-react-snippets": true,
+    "nginx": true,
+    "nix": true,
+    "nvim-nightfox": true,
+    "palenight": true,
+    "php": true,
+    "prisma": true,
+    "proto": true,
+    "python-snippets": true,
+    "qml": true,
+    "ruff": true,
+    "scss": true,
+    "serendipity": true,
+    "sql": true,
+    "superhtml": true,
+    "svelte": true,
+    "svelte-snippets": true,
+    "terraform": true,
+    "toml": true,
+    "twig": true,
+    "typst": true,
+    "vscode-dark-plus": true,
+    "vscode-great-icons": true,
+    "vscode-icons": true,
+    "vue": true,
+    "xcode-themes": true,
+    "zedokai": true,
+    "zedwaita": true,
+    "zig": true,
+    "ziggy": true,
+    "jsonl": true
   }
 }

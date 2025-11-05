@@ -60,8 +60,8 @@ wmclass=mpv
 wmclassmatch=1
 
 [General]
-count=6
-rules=4358d5ff-9f5a-459d-9c8a-33e1cb757340,951827e8-7ebc-4baf-90de-fe0f547aea41,e3824f5a-fd47-4112-99ed-eab54da5922b,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,3dcaf58b-d666-4716-8b39-78708a1ef7a7
+count=8
+rules=b670cf1a-8741-4b7c-8c10-8de93fc2da9d,f217deff-9710-4f1a-8e43-eb40e8c8c287,4358d5ff-9f5a-459d-9c8a-33e1cb757340,951827e8-7ebc-4baf-90de-fe0f547aea41,e3824f5a-fd47-4112-99ed-eab54da5922b,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,3dcaf58b-d666-4716-8b39-78708a1ef7a7
 
 [a98b9fc5-89ce-4dce-9457-a33d425b7cf0]
 Description=Window settings for ghostty.lowfi
@@ -84,6 +84,15 @@ wmclass=ghostty ghostty.lowfi
 wmclasscomplete=true
 wmclassmatch=1
 
+[b670cf1a-8741-4b7c-8c10-8de93fc2da9d]
+Description=Window settings for org.kde.polkit-kde-authentication-agent-1
+fsplevelrule=2
+title=Authentication Required
+types=1
+wmclass=\sorg.kde.polkit-kde-authentication-agent-1
+wmclasscomplete=true
+wmclassmatch=1
+
 [e3824f5a-fd47-4112-99ed-eab54da5922b]
 Description=Application settings for moonlight-stable
 ignoregeometry=true
@@ -93,4 +102,15 @@ minsizerule=2
 strictgeometryrule=2
 wmclass=Discord moonlight-stable
 wmclasscomplete=true
+wmclassmatch=1
+
+[f217deff-9710-4f1a-8e43-eb40e8c8c287]
+Description=Window settings for vicinae
+desktops=\\0
+desktopsrule=2
+fsplevelrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+types=1
+wmclass=vicinae
 wmclassmatch=1

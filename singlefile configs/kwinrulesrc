@@ -1,31 +1,21 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
-[3dcaf58b-d666-4716-8b39-78708a1ef7a7]
-Description=Konsole no decorations
-noborder=true
-noborderrule=3
-title=~ — Konsole
+[690eece2-5b2f-42a1-9a20-c64f17f76570]
+Description=Window settings for zen-beta
+desktops=f63f7486-ccaa-40e6-9e6c-3ef4ac6f274b
+desktopsrule=2
+title=Original profile — Zen Browser
 types=1
-wmclass=konsole org.kde.konsole
+wmclass=zen zen-beta
 wmclasscomplete=true
 wmclassmatch=1
 
-[4358d5ff-9f5a-459d-9c8a-33e1cb757340]
-Description=Application settings for mpv
-ignoregeometry=true
-ignoregeometryrule=2
-strictgeometryrule=2
-wmclass=mpv
-wmclassmatch=1
-
-[951827e8-7ebc-4baf-90de-fe0f547aea41]
-Description=Application settings for systemsettings
-minsize=1,1
+[74e22a36-b83a-4a89-93ae-0c154141551d]
+Description=no minimum size
 minsizerule=2
 types=1
-wmclass=systemsettings
-wmclassmatch=1
+wmclasscomplete=true
 
 [9675bfd7-593d-4be2-8ddf-c655f670e5cf]
 Description=Custom MPV PIP
@@ -60,8 +50,8 @@ wmclass=mpv
 wmclassmatch=1
 
 [General]
-count=8
-rules=b670cf1a-8741-4b7c-8c10-8de93fc2da9d,f217deff-9710-4f1a-8e43-eb40e8c8c287,4358d5ff-9f5a-459d-9c8a-33e1cb757340,951827e8-7ebc-4baf-90de-fe0f547aea41,e3824f5a-fd47-4112-99ed-eab54da5922b,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,3dcaf58b-d666-4716-8b39-78708a1ef7a7
+count=5
+rules=f0ac2f96-3037-43a9-b96f-4b16c72ebd58,690eece2-5b2f-42a1-9a20-c64f17f76570,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,74e22a36-b83a-4a89-93ae-0c154141551d
 
 [a98b9fc5-89ce-4dce-9457-a33d425b7cf0]
 Description=Window settings for ghostty.lowfi
@@ -84,33 +74,12 @@ wmclass=ghostty ghostty.lowfi
 wmclasscomplete=true
 wmclassmatch=1
 
-[b670cf1a-8741-4b7c-8c10-8de93fc2da9d]
-Description=Window settings for org.kde.polkit-kde-authentication-agent-1
-fsplevelrule=2
-title=Authentication Required
-types=1
-wmclass=\sorg.kde.polkit-kde-authentication-agent-1
-wmclasscomplete=true
-wmclassmatch=1
-
-[e3824f5a-fd47-4112-99ed-eab54da5922b]
-Description=Application settings for moonlight-stable
-ignoregeometry=true
-ignoregeometryrule=2
-minsize=0,0
-minsizerule=2
-strictgeometryrule=2
-wmclass=Discord moonlight-stable
-wmclasscomplete=true
-wmclassmatch=1
-
-[f217deff-9710-4f1a-8e43-eb40e8c8c287]
-Description=Window settings for vicinae
-desktops=\\0
+[f0ac2f96-3037-43a9-b96f-4b16c72ebd58]
+Description=Window settings for dev.zed.Zed
+desktops=949dcbfd-dfd5-47d3-a020-a54d2eff0c5d
 desktopsrule=2
-fsplevelrule=2
-skiptaskbar=true
-skiptaskbarrule=2
+title=awww-switcher — wpgrid.tsx
 types=1
-wmclass=vicinae
+wmclass=.zed-editor-wrapped dev.zed.Zed
+wmclasscomplete=true
 wmclassmatch=1

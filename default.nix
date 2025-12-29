@@ -13,6 +13,5 @@
     ./single_files.nix
     ./zed/default.nix
     ./spotify.nix
-    ./desktop/default.nix
   ];
 }

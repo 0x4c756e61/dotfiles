@@ -1,4 +1,43 @@
 {
+  "window_decorations": "server",
+  "project_panel": {
+    "hide_gitignore": false
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "toolbar": {
+    "code_actions": true
+  },
+  "minimap": {
+    "thumb_border": "right_open",
+    "display_in": "active_editor",
+    "show": "always"
+  },
+  "scrollbar": {
+    "show": "auto"
+  },
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "min_line_number_digits": 4,
+    "line_numbers": true
+  },
+  "show_wrap_guides": true,
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "disable_ai": true,
+  "helix_mode": false,
+  "ssh_connections": [
+    {
+      "host": "git.stryder.cc",
+      "args": [],
+      "projects": []
+    }
+  ],
   "vim_mode": false,
   "ui_font_family": ".SystemUIFont",
   "bottom_dock_layout": "contained",
@@ -16,7 +55,7 @@
     "show_menus": false,
     "show_branch_icon": true
   },
-  "unnecessary_code_fade": 0.7000000476837158,
+  "unnecessary_code_fade": 0.5,
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -53,7 +92,7 @@
   "base_keymap": "VSCode",
   "theme": "Catppuccin Espresso (Blur) [Heavy]",
   "ui_font_size": 17.8,
-  "buffer_font_size": 16,
+  "buffer_font_size": 19.0,
   "buffer_font_family": "Maple Mono NF",
   "terminal": {
     "font_family": "Maple Mono NF"

@@ -24,3 +24,8 @@
 [pull]
 	rebase = true
 
+[init]
+	defaultBranch = main
+[user]
+	email = 40660493+0x4c756e61@users.noreply.github.com
+	name = Lyna

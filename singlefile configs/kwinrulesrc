@@ -1,13 +1,44 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
+[433cf180-59b2-47d3-b7a8-3ed634c2310f]
+Description=On Demand Helix
+above=true
+aboverule=2
+ignoregeometry=true
+ignoregeometryrule=2
+position=477,286
+positionrule=2
+size=960,540
+sizerule=2
+skippager=true
+skippagerrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+types=1
+wmclass=ghostty.arbitrary_editor
+wmclassmatch=2
+
 [690eece2-5b2f-42a1-9a20-c64f17f76570]
-Description=Window settings for zen-beta
-desktops=f63f7486-ccaa-40e6-9e6c-3ef4ac6f274b
+Description=Force zen on workspace 2
+desktops=949dcbfd-dfd5-47d3-a020-a54d2eff0c5d
 desktopsrule=2
 title=Original profile — Zen Browser
 types=1
 wmclass=zen zen-beta
+wmclasscomplete=true
+wmclassmatch=1
+
+[7012d0cc-f48b-4da3-8f40-7c6c425d565d]
+Description=Force keepass on workspace 8
+desktops=b4ef5353-d15f-4c21-b95b-5080daba05dc
+desktopsrule=2
+title=Passwords - KeePassXC
+titlematch=1
+types=1
+wmclass=keepassxc org.keepassxc.KeePassXC
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -16,6 +47,9 @@ Description=no minimum size
 minsizerule=2
 types=1
 wmclasscomplete=true
+
+[9412acdd-4a9f-4594-90ed-9a94b0ba75b2]
+desktopsrule=2
 
 [9675bfd7-593d-4be2-8ddf-c655f670e5cf]
 Description=Custom MPV PIP
@@ -50,11 +84,11 @@ wmclass=mpv
 wmclassmatch=1
 
 [General]
-count=5
-rules=f0ac2f96-3037-43a9-b96f-4b16c72ebd58,690eece2-5b2f-42a1-9a20-c64f17f76570,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,74e22a36-b83a-4a89-93ae-0c154141551d
+count=7
+rules=7012d0cc-f48b-4da3-8f40-7c6c425d565d,f0ac2f96-3037-43a9-b96f-4b16c72ebd58,690eece2-5b2f-42a1-9a20-c64f17f76570,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,74e22a36-b83a-4a89-93ae-0c154141551d,433cf180-59b2-47d3-b7a8-3ed634c2310f
 
 [a98b9fc5-89ce-4dce-9457-a33d425b7cf0]
-Description=Window settings for ghostty.lowfi
+Description=Custom lowfi music player
 closeable=true
 closeablerule=2
 ignoregeometry=true
@@ -75,8 +109,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [f0ac2f96-3037-43a9-b96f-4b16c72ebd58]
-Description=Window settings for dev.zed.Zed
-desktops=949dcbfd-dfd5-47d3-a020-a54d2eff0c5d
+Description=Force zed on workspace 3
+desktops=f63f7486-ccaa-40e6-9e6c-3ef4ac6f274b
 desktopsrule=2
 title=awww-switcher — wpgrid.tsx
 types=1

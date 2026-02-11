@@ -68,6 +68,8 @@
     extraPackages = with pkgs; [
       nixd
       nil
+      # Needed for zed to compile dev extensions
+      rustup
     ];
   };
 

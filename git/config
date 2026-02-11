@@ -29,3 +29,5 @@
 [user]
 	email = 40660493+0x4c756e61@users.noreply.github.com
 	name = Lyna
+[merge]
+	conflictstyle = zdiff3

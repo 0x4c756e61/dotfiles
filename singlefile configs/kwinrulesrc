@@ -1,6 +1,14 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
+[2e1bf04e-7c7e-4711-a8eb-410b0ae97b20]
+Description=Application settings for signal
+desktops=fc28ee61-73b5-44a9-8fd2-64c5e14e0c5d
+desktopsrule=2
+wmclass=electron signal
+wmclasscomplete=true
+wmclassmatch=1
+
 [433cf180-59b2-47d3-b7a8-3ed634c2310f]
 Description=On Demand Helix
 above=true
@@ -48,6 +56,14 @@ minsizerule=2
 types=1
 wmclasscomplete=true
 
+[8e59ff27-e40d-48af-8501-7242589bfa50]
+Description=Application settings for discord
+desktops=fc28ee61-73b5-44a9-8fd2-64c5e14e0c5d
+desktopsrule=2
+wmclass=.Discord-wrapped discord
+wmclasscomplete=true
+wmclassmatch=1
+
 [9412acdd-4a9f-4594-90ed-9a94b0ba75b2]
 desktopsrule=2
 
@@ -84,8 +100,8 @@ wmclass=mpv
 wmclassmatch=1
 
 [General]
-count=7
-rules=7012d0cc-f48b-4da3-8f40-7c6c425d565d,f0ac2f96-3037-43a9-b96f-4b16c72ebd58,690eece2-5b2f-42a1-9a20-c64f17f76570,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,74e22a36-b83a-4a89-93ae-0c154141551d,433cf180-59b2-47d3-b7a8-3ed634c2310f
+count=9
+rules=8e59ff27-e40d-48af-8501-7242589bfa50,2e1bf04e-7c7e-4711-a8eb-410b0ae97b20,7012d0cc-f48b-4da3-8f40-7c6c425d565d,f0ac2f96-3037-43a9-b96f-4b16c72ebd58,690eece2-5b2f-42a1-9a20-c64f17f76570,a98b9fc5-89ce-4dce-9457-a33d425b7cf0,9675bfd7-593d-4be2-8ddf-c655f670e5cf,74e22a36-b83a-4a89-93ae-0c154141551d,433cf180-59b2-47d3-b7a8-3ed634c2310f
 
 [a98b9fc5-89ce-4dce-9457-a33d425b7cf0]
 Description=Custom lowfi music player

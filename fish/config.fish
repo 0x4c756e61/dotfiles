@@ -2,6 +2,11 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     starship init fish | source
     zoxide init fish | source
+
+    # # There's no reason any software would need access to the entire machine's resources, but
+    # # if something does need that kind of access, i can just raise the limit again (it's only soft)
+    # ulimit -Sv 1000000
+    # ulimit -Sc 100
 end
 
 # export ssh agent

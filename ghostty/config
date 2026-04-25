@@ -1,5 +1,4 @@
-theme = Cobalt Next Minimal
-#theme = Adwaita
+config-file = ?auto/theme.ghostty
 font-family = Maple Mono NF
 window-decoration=client
 window-theme=ghostty
@@ -8,9 +7,9 @@ adw-toolbar-style=flat
 window-decoration=client
 custom-shader = /home/luna/.config/ghostty/cursor.glsl
 keybind = ctrl+shift+w=toggle_tab_overview
-background-opacity=0.5
+#background-opacity=0.5
 window-decoration=true
 quick-terminal-animation-duration=0.5
-keybind = global:cmd+*=toggle_quick_terminal
-window-padding-x=5
+#keybind = global:cmd+*=toggle_quick_terminal
+window-padding-x=0
 window-padding-y=0

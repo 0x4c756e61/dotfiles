@@ -57,6 +57,7 @@
   },
   "unnecessary_code_fade": 0.5,
   "edit_predictions": {
+    "provider": "zed",
     "mode": "subtle",
     "copilot": {
       "proxy": null,
@@ -86,11 +87,8 @@
   "auto_update_extensions": {
     "discord-presence": false
   },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
   "base_keymap": "VSCode",
-  "theme": "Catppuccin Espresso (Blur) [Heavy]",
+  "theme": "Catppuccin Espresso (Blur) [Light]",
   "ui_font_size": 17.8,
   "buffer_font_size": 19.0,
   "buffer_font_family": "Maple Mono NF",

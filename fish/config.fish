@@ -64,3 +64,7 @@ set -a PATH ~/.dotnet/tools
 # keybinds
 ## remove word on ctrl-backspace in vi normal mode
 bind ctrl-backspace backward-kill-path-component
+
+# zx
+set --export ZX_INSTALL "$HOME/.zx"
+set --export PATH $ZX_INSTALL/bin $PATH

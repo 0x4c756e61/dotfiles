@@ -8,7 +8,7 @@ touchpad:
       actions:
         - on: begin
           input:
-            - keyboard: [ +leftalt ]
+            - keyboard: [ +leftmeta ]
             - mouse: [ +left ]
 
         - on: update
@@ -17,7 +17,7 @@ touchpad:
 
         - on: end_cancel
           input:
-            - keyboard: [ -leftalt ]
+            - keyboard: [ -leftmeta ]
             - mouse: [ -left ]
 
     - type: pinch

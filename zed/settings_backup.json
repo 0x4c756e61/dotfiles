@@ -64,8 +64,8 @@
     "show": true
   },
   "title_bar": {
-    "show_branch_status_icon": true,
-    "show_menus": false
+    "show_menus": false,
+    "show_branch_icon": true
   },
   "unnecessary_code_fade": 0.5,
   "edit_predictions": {

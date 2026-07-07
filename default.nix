@@ -3,7 +3,6 @@
     ./fastfetch/default.nix
     ./fish/default.nix
     ./ghostty/default.nix
-    ./kanata/default.nix
     ./lowfi/default.nix
     ./mpv/default.nix
     ./starship/default.nix
@@ -12,6 +11,11 @@
     ./MangoHud/default.nix
     ./single_files.nix
     ./zed/default.nix
-    # ./spotify.nix
+    ./vicinae.nix
+    ./direnv.nix
+    ./zen-browser/default.nix
+    ./media.nix
+    ./social.nix
+    ./fonts.nix
   ];
 }

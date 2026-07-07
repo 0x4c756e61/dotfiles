@@ -42,3 +42,20 @@ command = "pylsp"
 args = []
 config = {}
 
+
+[[language]]
+name = "ziex"
+language-id = "zx"
+scope = "source.zx"
+roots = ["build.zig", "zls.json", ".git"]
+file-types = ["zx"]
+grammar = "zx"
+language-servers = ["zls-zx"]
+
+[language-server.zls-zx]
+command = "zls-zx-proxy"
+args = ["zls"]
+
+[[grammar]]
+name = "zx"
+source = { git = "https://github.com/ziex-dev/ziex", rev = "main", subpath = "pkg/tree-sitter-zx" }

@@ -17,5 +17,8 @@
     ./media.nix
     ./social.nix
     ./fonts.nix
+    ./games.nix
+    ./system.nix
+    ./extra.nix
   ];
 }

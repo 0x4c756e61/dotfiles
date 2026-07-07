@@ -12,5 +12,5 @@
     qpwgraph
    (config.lib.nixGL.wrap easyeffects)
     # --
-  ]
+  ];
 }

@@ -21,13 +21,16 @@ let
             sha256 = "sha256-a/0u0TnRj/UXjg/GKjtAWFQN2+ujrckSwNae23DBfs4=";
           }
         );
-
-        postInstall = (oldAttrs.postInstall or "") + ''
-          chmod -R u+w "$out/lib/${libName}"
-          cp "${fsautoconfig}" "$out/lib/${libName}/config.js"
-          mkdir -p "$out/lib/${libName}/defaults/pref"
-          cp "${configpref}" "$out/lib/${libName}/defaults/pref/config-pref.js"
-        '';
+        postInstall =
+          (oldAttrs.postInstall or "")
+          + ''
+              for libdir in "$out"/lib/${libName}; do
+                chmod -R u+w "$libdir"
+                cp "${fsautoconfig}" "$libdir/config.js"
+                mkdir -p "$libdir/defaults/pref"
+                cp "${configpref}" "$libdir/defaults/pref/config-pref.js"
+              done
+          '';
       });
 in
 {
